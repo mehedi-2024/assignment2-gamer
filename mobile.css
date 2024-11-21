@@ -1,0 +1,264 @@
+@media (max-width: 500px) {
+    h1 {
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 9vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+    h4{
+        font-size: 3.2vw;
+    }
+    h5{
+        font-size: 3.2vw;
+    }
+    p, td{
+        font-size: 4vw;
+    }
+    a {
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    a:hover {
+        color: var(--main-color);
+    }
+    .btn{
+        padding: 2.3vw 5vw;
+        border-radius: 1000px;
+        font-size: 4vw;
+        font-weight: 700;
+        border: none;
+        color: var(--bg-color);
+        cursor: pointer;
+    }
+
+    /* ------------------------------ */
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 4vh 0;
+        box-shadow: none;
+    }
+    .nav-logo{
+        gap: 1.5vw;
+        margin-bottom: 3vh;
+    }
+    .nav-logo img{
+        width: 9vw;
+        height: 6vw;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5vh;
+    }
+    .nav-menu #last-menu{
+        padding: 1.5vw 3vw;
+        background: #E7E6E9;
+        border-radius: 4px;
+    }
+    #last-menu i{
+        margin-left: 1.2vw;
+        font-size: 4vw;
+    }
+    /* nav end  */
+
+    /* home start  */
+    .home{
+        padding: 0 9%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-text{
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+        padding: 3vh 0;
+    }
+    .home-text p{
+        font-size: 5vw;
+    }
+    li i{
+        margin-right: 1.5vw;
+        font-size: 2.2vw;
+        color: var(--main-color);
+    }
+    li i:last-child{
+        color: var(--blue);
+    }
+    .home .btn-box{
+        margin-top: 6vw;
+    }
+    .btn1{
+        background: var(--main-color);
+        margin-right: 2vw;
+    }
+    .btn2{
+        background: var(--blue);
+    }
+
+    .home-img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .home-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    /* homeEnd */
+ 
+    /* we are gamr start */
+    .gamer-box{
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 4vh;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-img img{
+        width: 100%;
+    }
+    .gamer-text{
+        width: 100%;
+        text-align: center;
+    }
+    .gamer-text p{
+        margin: 3vh 0;
+    }
+    .gamer-text .btn{
+        margin-bottom: 6vh;
+    }
+    /* we are gamr end */
+
+    /* funny video st  */
+    .video-box{
+       flex-direction: column;
+       align-items: center;
+       gap: 5vh;
+    }
+    .funny-video h2{
+        text-align: center;
+        margin-bottom: 1vh;
+    }
+    .video{
+        width: 60vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .video img{
+        width: 100%;
+        height: 65vw;
+        margin-bottom: 1vh;
+        z-index: -1;
+    }
+
+    /* double start */
+    .double-img-sec>div{
+        width: 100%;
+        float: none;
+        text-align: right;
+    }
+    .double-img-sec .text{
+        height: fit-content;
+        text-align: center;
+        padding: 0 10%;
+        margin-bottom: 6vh;
+    }
+    .double-img-sec h2{
+        margin-bottom: 1vh;
+    }
+    .double-img-sec .img{
+        height: 80vw;
+        padding: 0 10%;
+    }
+    .one{
+        width: 55vw;
+        height: 65vw;
+    }
+    .two{
+        width: 28vw;
+        height: 32vw;
+    }
+    .overlay{
+        top: 45vw;
+        right: 49vw;
+    }
+    .double-img-sec2>div{
+        text-align: left;
+    }
+    .double-img-sec2 .overlay{
+        top: 46vw;
+        left: 49vw;
+        width: fit-content;
+    }
+    /* double img end  */
+
+    /* career sec st */
+    .career-box>div{
+        width: 100%;
+        height: fit-content;
+    }
+    .career-text{
+        padding: 7vw 8%;
+    }
+    .career-img img{
+        width: 100vw;
+        height: auto;
+        padding-left: 10vw;
+    }
+    /* career sec end */
+
+    /* game list st  */
+    .game-list {
+        padding: 20vw 3%;
+    }
+    ul .none{
+        display: none;
+    }
+    li img {
+        width: 10vw;
+    }
+    .game-list-line2{
+        margin-top: 3vh;
+    }
+    /* game list end */
+
+
+    footer{
+        gap: 6vw;
+        padding-top: 6vh;
+    }
+    footer .nav-logo{
+        margin: 0;
+    }
+    footer ul{
+        display: block;
+    }
+    footer li{
+        text-align: center;
+        font-size: 4vw;
+        margin-bottom: 7vw;
+    }
+    .icon-ul i{
+        font-size: 4vw;
+        cursor: pointer;
+        height: 4.1vw;
+    }
+    .icon-ul{
+        display: flex;
+        gap: 6vw;
+    }
+    .footer-text p{
+        font-size: 2.8vw;
+    }
+}
